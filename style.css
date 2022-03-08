@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    color: antiquewhite;
+    background: url('images/bg.jpeg') center;
+}
+.left{
+    /* border: 1px solid red; */
+    width: 10%;
+    position: absolute;
+    top: 7px;
+    left: 6px;
+    text-align: center;
+}
+.left img{
+    width: 80px;
+    border-radius: 50%;
+}
+.mid{
+    /* border: 1px solid rgb(115, 255, 0); */
+    display: block;
+    width: 40%;
+    margin: 2px auto;
+}
+.navbar{
+    list-style: none;
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 22px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: rgb(153, 148, 142);
+}
+.right{
+    /* border: 1px solid rgb(208, 99, 99); */
+    position: absolute;
+    top: 7px;
+    right: 6px;
+}
+.btn{
+    padding: 8px 10px;
+    margin: 0px 4px;
+    font-size: 15px;
+    border: 0.1px solid rgb(252, 229, 187);
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn:hover{
+    text-decoration: underline;
+}
+.container{
+    border: 1px solid rgb(252, 229, 187);
+    margin: 70px auto;
+    padding: 40px;
+    width: 45%;
+    border-radius: 4px;
+}
+.container h2{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 20%;
+    margin: auto;
+}
+.container button:hover{
+    background-color: rgb(13, 70, 62);
+}
+.form-input input{
+    font-size: 17px;
+    text-align: center;
+    display: block;
+    width: 380px;
+    padding: 7px;
+    margin: 12px auto;
+    border: 0px;
+    border-radius: 3px;
+
+}
